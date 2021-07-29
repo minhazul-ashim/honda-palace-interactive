@@ -1,0 +1,73 @@
+/* Fonts Collection */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* Variables */
+
+:root {
+
+    --btnColors: #E76F51;
+}
+
+/* Utilities and Common Classes */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+
+    width: 80%;
+}
+
+
+
+
+/* Header Section */
+
+header {
+
+    background: #264653;
+}
+
+/* Navbar Section */
+
+
+.nav-link {
+
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.76) !important;
+}
+
+.login-btn {
+
+    background: var(--btnColors);
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* Top Banner Section */
+
+.top-banner {
+
+    color: rgb(231, 230, 230);
+}
+
+.purchase-btn {
+
+    background: var(--btnColors);
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    box-shadow: 0;
+}
