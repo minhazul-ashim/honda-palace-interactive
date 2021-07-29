@@ -63,11 +63,126 @@ header {
     color: rgb(231, 230, 230);
 }
 
+.banner-info p {
+
+    font-size: 1rem;   
+}
+
+.banner-info h1 {
+
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: rgba(255, 255, 0, 0.767);
+}
+
 .purchase-btn {
+
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+
+
+/* Featured Bike Section Styles */
+
+.section-title {
+
+    font-size: 2.75rem;
+    font-weight: 600;
+}
+
+.section-subtitle {
+
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.section-subtitle::after {
+
+    content: '';
+    width: 10%;
+    height: 5px;
+    display: block;
+    background: var(--btnColors);
+    position: absolute;
+    left: 45%;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.grayScaled {
+
+    filter: grayscale(100%);
+}
+
+.otherScaled {
+
+    filter: hue-rotate(90deg);
+}
+
+
+/* Latest News Section Styles */
+
+.latest-news .section-title::after {
+
+    content: '';
+    width: 10%;
+    background: var(--btnColors);
+    height: 5px;
+    display: block;
+    position: absolute;
+    left: 45%;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.news-card-link {
 
     background: var(--btnColors);
     color: white;
-    letter-spacing: 1px;
-    border-radius: 5px;
-    box-shadow: 0;
 }
+
+.news-box .card-title {
+
+    font-weight: 600;
+}
+
+
+
+/* Reviews Section Styling */
+
+
+.section-title span {
+
+    background-image: linear-gradient(to right, red, rgb(255, 153, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.review-section .section-title::after {
+
+    content: '';
+    width: 10%;
+    background: var(--btnColors);
+    height: 5px;
+    display: block;
+    position: absolute;
+    left: 45%;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.review-rating i {
+
+    color: goldenrod;
+}
+
+.review-rating .empty {
+
+    color: #999;
+}
+
+
+
+/* FAQ SECTION STYLES */
+

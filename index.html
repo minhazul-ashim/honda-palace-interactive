@@ -10,6 +10,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/48068db4b7.js" crossorigin="anonymous"></script>
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -55,20 +58,21 @@
 
         <div class="top-banner container">
 
-            <div class="row py-5 d-flex align-items-center row-cols-1 row-cols-md-2">
+            <div class="row py-5 d-flex align-items-center row-cols-1 row-cols-lg-2">
 
-                <div class="col">
+                <div class="banner-info col">
                     <p>Computer-controlled digital transistorized with electronic advance</p>
                     <h1>HONDA CBR 300R</h1>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua
                         dolor do amet sint. Velit officia consequat duis enim velit
                         mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                    <button class='purchase-btn px-4 py-2' data-bs-toggle='modal'
-                        data-bs-target='#purchaseModal'>PURCHASE</button>
+                    <a href="#purchaseModal" class='login-btn purchase-btn text-decoration-none py-3 px-5'
+                        data-bs-toggle='modal'>
+                        PURCHASE</a>
                 </div>
 
                 <div class="col">
-                    <img class='img-fluid pt-5 pt-md-0' src="images/header-bike.png" alt="">
+                    <img class='img-fluid pt-5 pt-lg-0' src="images/header-bike.png" alt="">
                 </div>
 
             </div>
@@ -97,7 +101,8 @@
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Proceed</button>
                         <button type="button" class="btn btn-info"><a class='text-decoration-none text-white'
-                                href="https://powersports.honda.com/street/sport/cbr300r">More info</a></button>
+                                href="https://powersports.honda.com/street/sport/cbr300r" target='_blank'>More
+                                info</a></button>
                     </div>
                 </div>
             </div>
@@ -106,6 +111,212 @@
     </header>
 
     <main>
+
+        <!-- Featured Bike Section Structure -->
+        <section>
+
+            <div class="featured-bikes container">
+
+                <h1 class="section-title text-center pt-5">
+                    Featured Bikes
+                </h1>
+                <h5 class='section-subtitle text-center'>Our Best Collection</h5>
+
+                <div class="row row-cols-1 row-cols-lg-3 g-5 py-5">
+
+                    <div class="col d-flex">
+                        <img class='grayScaled img-fluid' src="images/feature-bike.jpg" alt="">
+                    </div>
+
+                    <div class="col">
+                        <img class='img-fluid' src="images/feature-bike.jpg" alt="">
+                    </div>
+
+                    <div class="col">
+                        <img class='otherScaled img-fluid' src="images/feature-bike.jpg" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Latest News Section Structure -->
+
+        <section>
+
+            <div class="latest-news container">
+
+                <h1 class="section-title text-center">Latest News</h1>
+
+                <div class="row g-3 row-cols-1 row-cols-lg-3 py-5">
+
+                    <div class="col">
+
+                        <div class="news-box card">
+                            <img src="images/bike-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="card-footer bg-white">
+                                <a href="" class="news-card-link  btn">Read More</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col">
+
+                        <div class="news-box card">
+                            <img src="images/bike-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Motorcycles & Scooters</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="card-footer bg-white">
+                                <a href="" class="news-card-link  btn">Read More</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col">
+
+                        <div class="news-box card">
+                            <img src="images/bike-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">2021 Honda CBR500R</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="card-footer bg-white">
+                                <a href="" class="news-card-link  btn">Read More</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Happy Clients Section Structure -->
+
+        <section>
+
+            <div class="review-section container py-5">
+
+                <h1 class="section-title text-center">
+                    Happy <span>Client's Reviews</span>
+                </h1>
+
+                <div class="row g-4 row-cols-1 row-cols-lg-3 py-5">
+
+                    <div class="review-box col">
+
+                        <div class="card text-center h-100">
+                            <div class="py-3">
+                                <img class='w-50' src="images/user-1.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Theon Greyjoy</h1>
+                                    <p class="card-text lead">Slate helps you see how
+
+                                        many more days you need
+
+                                        to work to reach your financial
+
+                                        goal for the month and year.</p>
+                                    <div class="review-rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="empty fas fa-star"></i>
+                                    </div>
+                                    <h4 class='mt-2 text-danger'>Banker</h4>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="review-box col">
+
+                        <div class="card text-center h-100">
+                            <div class="py-3">
+                                <img class='w-50' src="images/user-2.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Sansa Stark</h1>
+                                    <p class="card-text lead">Slate helps you see how
+
+                                        many more days you need
+
+                                        to work to reach your financial
+
+                                        goal for the month and year.</p>
+                                    <div class="review-rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="empty fas fa-star"></i>
+                                    </div>
+                                    <h4 class='mt-2 text-danger'>Designer</h4>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="review-box col">
+
+                        <div class="card text-center h-100">
+                            <div class="py-3">
+                                <img class='w-50 rounded-circle' src="images/user-3.jpg" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Cersei Lannister</h1>
+                                    <p class="card-text lead">Slate helps you see how
+
+                                        many more days you need
+
+                                        to work to reach your financial
+
+                                        goal for the month and year.</p>
+                                    <div class="review-rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="empty fas fa-star"></i>
+                                    </div>
+                                    <h4 class='mt-2 text-danger'>Artist</h4>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- FAQ Section Structure -->
+
+        <section>
+
+            <div class="faq-section container">
+
+
+
+            </div>
+
+        </section>
 
     </main>
 
