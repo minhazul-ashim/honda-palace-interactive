@@ -186,3 +186,32 @@ header {
 
 /* FAQ SECTION STYLES */
 
+.faq-section .section-title::after {
+
+    content: '';
+    width: 10%;
+    background: var(--btnColors);
+    height: 5px;
+    display: block;
+    position: absolute;
+    left: 45%;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+
+
+/* Brand Collaboration Section Title */
+
+.brand-promotion .section-title::after {
+
+    content: '';
+    width: 10%;
+    background: var(--btnColors);
+    height: 5px;
+    display: block;
+    position: absolute;
+    left: 45%;
+    margin-top: 5px;
+    border-radius: 20px;
+}
